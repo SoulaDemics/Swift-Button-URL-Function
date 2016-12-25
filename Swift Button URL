@@ -1,0 +1,4 @@
+(_ sender: Any) {
+        if let url = NSURL(string: "http://www.EnterWebSiteHere.com"){
+            UIApplication.shared.open(url as URL,options:[:], completionHandler:nil)}
+    }
